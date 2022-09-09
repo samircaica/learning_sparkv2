@@ -7,7 +7,7 @@ object MnMcount {
   def main(args: Array[String]) {
     val spark = SparkSession
       .builder
-      .master("local")
+      //.master("local")
       .appName("MnMcount")
       .getOrCreate()
 
